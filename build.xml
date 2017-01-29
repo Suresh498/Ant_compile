@@ -1,0 +1,10 @@
+<project name="test" default="compile">
+	
+
+	<target name="compile">
+		<echo> build/classes directory created"</echo>
+		<javac srcdir="src" includeantruntime="true" destdir="build/classes"/>
+		<echo> compiled succesfully"</echo>
+	</target>
+
+</project>	
